@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bahrain league calendars</title>
+<style>
+  :root { --bg:#f6f7f9; --ink:#14181f; --muted:#5b6472; --card:#ffffff; --line:#dfe3e8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14171c; --ink:#f1f3f6; --muted:#9aa3b0; --card:#1d2128; --line:#2c323b; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:480px; margin:0 auto; padding:32px 20px 48px; }
+  h1 { font-size:1.6rem; line-height:1.2; margin:0 0 8px; }
+  p.lead { color:var(--muted); margin:0 0 28px; }
+  .item { background:var(--card); border:1px solid var(--line); border-left-width:6px; border-radius:12px; padding:16px; margin-bottom:14px; }
+  .item h2 { font-size:1.1rem; margin:0 0 2px; }
+  .item p { margin:0 0 12px; color:var(--muted); font-size:.92rem; }
+  .btn { display:block; text-align:center; padding:12px; border-radius:10px; font-weight:600; text-decoration:none; color:#fff; }
+  .btn:focus-visible { outline:3px solid var(--ink); outline-offset:2px; }
+  .alt { display:block; text-align:center; margin-top:10px; font-size:.88rem; color:var(--muted); }
+  .football { border-left-color:#ff3b30; } .football .btn { background:#d92d22; }
+  .basketball { border-left-color:#ffcc00; } .basketball .btn { background:#8a6a00; }
+  .handball { border-left-color:#1b2a6b; } .handball .btn { background:#1b2a6b; }
+  .note { color:var(--muted); font-size:.85rem; margin-top:24px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bahrain league calendars</h1>
+  <p class="lead">Tap a button, then tap Subscribe. Each sport gets its own calendar on your iPhone.</p>
+
+  <section class="item football">
+    <h2>Football</h2>
+    <p>Premier League, Rounds 4 to 6. 18 matches.</p>
+    <a class="btn" data-file="Bahrain_League_Rounds.ics" href="Bahrain_League_Rounds.ics">Add football calendar</a>
+    <a class="alt" data-file="Bahrain_League_Rounds.ics" data-plain href="Bahrain_League_Rounds.ics">Add once, without updates</a>
+  </section>
+
+  <section class="item basketball">
+    <h2>Basketball</h2>
+    <p>Zain Men's League. 30 matches.</p>
+    <a class="btn" data-file="Bahrain_Basketball_League.ics" href="Bahrain_Basketball_League.ics">Add basketball calendar</a>
+    <a class="alt" data-file="Bahrain_Basketball_League.ics" data-plain href="Bahrain_Basketball_League.ics">Add once, without updates</a>
+  </section>
+
+  <section class="item handball">
+    <h2>Handball</h2>
+    <p>Khalid Bin Hamad League. 45 matches.</p>
+    <a class="btn" data-file="Bahrain_Handball_League.ics" href="Bahrain_Handball_League.ics">Add handball calendar</a>
+    <a class="alt" data-file="Bahrain_Handball_League.ics" data-plain href="Bahrain_Handball_League.ics">Add once, without updates</a>
+  </section>
+
+  <p class="note">Open this page in Safari on iPhone. "Add once" imports the matches as normal events. The main buttons subscribe, so the calendar can be removed in one step.</p>
+</main>
+<script>
+  var base = location.host + location.pathname.replace(/[^\/]*$/, '');
+  document.querySelectorAll('a.btn[data-file]').forEach(function (a) {
+    a.href = 'webcal://' + base + a.getAttribute('data-file');
+  });
+</script>
+</body>
+</html>

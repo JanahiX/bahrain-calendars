@@ -1,0 +1,211 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bahrain League//Rounds 4-6//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bahrain League
+X-APPLE-CALENDAR-COLOR:#FF3B30
+COLOR:red
+X-WR-TIMEZONE:Asia/Bahrain
+BEGIN:VEVENT
+UID:nbh-league-2627-r4-0@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261009T160000Z
+DTEND:20261009T180000Z
+SUMMARY:⚽ Al-Khalidiya vs Al-Muharraq
+LOCATION:Khalifa Sports City Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 4\nالخال
+ دية × المحرق\nاستاد مدينة خليفة الرياضية
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r4-1@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261009T160000Z
+DTEND:20261009T180000Z
+SUMMARY:⚽ Malkiya vs Riffa
+LOCATION:Bahrain National Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 4\nالمال
+ كية × الرفاع\nاستاد البحرين الوطني
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r4-2@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261010T160000Z
+DTEND:20261010T180000Z
+SUMMARY:⚽ Al-Manama vs Al-Ahli
+LOCATION:Khalifa Sports City Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 4\nالمنا
+ مة × الأهلي\nاستاد مدينة خليفة الرياضية
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r4-3@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261010T160000Z
+DTEND:20261010T180000Z
+SUMMARY:⚽ Al-Hidd vs Al-Ettifaq
+LOCATION:Bahrain National Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 4\nالحد 
+ × الاتفاق\nاستاد البحرين الوطني
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r4-4@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261011T160000Z
+DTEND:20261011T180000Z
+SUMMARY:⚽ East Riffa vs A'ali
+LOCATION:Khalifa Sports City Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 4\nالرفا
+ ع الشرقي × عالي\nاستاد مدينة خليفة الرياض
+ ية
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r4-5@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261011T160000Z
+DTEND:20261011T180000Z
+SUMMARY:⚽ Sitra vs Al-Najma
+LOCATION:Al-Ahli Club Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 4\nسترة 
+ × النجمة\nاستاد النادي الأهلي
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r5-6@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261016T160000Z
+DTEND:20261016T180000Z
+SUMMARY:⚽ Al-Ettifaq vs Al-Manama
+LOCATION:Khalifa Sports City Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 5\nالاتف
+ اق × المنامة\nاستاد مدينة خليفة الرياضية
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r5-7@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261016T160000Z
+DTEND:20261016T180000Z
+SUMMARY:⚽ A'ali vs Sitra
+LOCATION:Al-Ahli Club Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 5\nعالي 
+ × سترة\nاستاد النادي الأهلي
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r5-8@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261017T160000Z
+DTEND:20261017T180000Z
+SUMMARY:⚽ Riffa vs East Riffa
+LOCATION:Khalifa Sports City Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 5\nالرفا
+ ع × الرفاع الشرقي\nاستاد مدينة خليفة الري
+ اضية
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r5-9@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261017T160000Z
+DTEND:20261017T180000Z
+SUMMARY:⚽ Al-Najma vs Al-Hidd
+LOCATION:Bahrain National Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 5\nالنجم
+ ة × الحد\nاستاد البحرين الوطني
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r5-10@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261018T160000Z
+DTEND:20261018T180000Z
+SUMMARY:⚽ Al-Ahli vs Al-Khalidiya
+LOCATION:Khalifa Sports City Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 5\nالأهل
+ ي × الخالدية\nاستاد مدينة خليفة الرياضية
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r5-11@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261018T160000Z
+DTEND:20261018T180000Z
+SUMMARY:⚽ Al-Muharraq vs Malkiya
+LOCATION:Bahrain National Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 5\nالمحر
+ ق × المالكية\nاستاد البحرين الوطني
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r6-12@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261022T160000Z
+DTEND:20261022T180000Z
+SUMMARY:⚽ Al-Najma vs A'ali
+LOCATION:Khalifa Sports City Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 6\nالنجم
+ ة × عالي\nاستاد مدينة خليفة الرياضية
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r6-13@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261022T160000Z
+DTEND:20261022T180000Z
+SUMMARY:⚽ Sitra vs Riffa
+LOCATION:Bahrain National Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 6\nسترة 
+ × الرفاع\nاستاد البحرين الوطني
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r6-14@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261023T160000Z
+DTEND:20261023T180000Z
+SUMMARY:⚽ Al-Khalidiya vs Al-Ettifaq
+LOCATION:Bahrain National Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 6\nالخال
+ دية × الاتفاق\nاستاد البحرين الوطني
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r6-15@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261023T160000Z
+DTEND:20261023T180000Z
+SUMMARY:⚽ East Riffa vs Al-Muharraq
+LOCATION:Khalifa Sports City Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 6\nالرفا
+ ع الشرقي × المحرق\nاستاد مدينة خليفة الري
+ اضية
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r6-16@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T180000Z
+SUMMARY:⚽ Malkiya vs Al-Ahli
+LOCATION:Bahrain National Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 6\nالمال
+ كية × الأهلي\nاستاد البحرين الوطني
+CATEGORIES:Bahrain League
+END:VEVENT
+BEGIN:VEVENT
+UID:nbh-league-2627-r6-17@bfa.bh
+DTSTAMP:20261005T000000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T180000Z
+SUMMARY:⚽ Al-Hidd vs Al-Manama
+LOCATION:Al-Ahli Club Stadium\, Bahrain
+DESCRIPTION:Nasser Bin Hamad Premier League 2026/27 – Round 6\nالحد 
+ × المنامة\nاستاد النادي الأهلي
+CATEGORIES:Bahrain League
+END:VEVENT
+END:VCALENDAR

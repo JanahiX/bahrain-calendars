@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Bahrain Basketball//Zain League//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Bahrain Basketball
+X-WR-CALNAME:Bahrain Basketball - Al Najma
 X-APPLE-CALENDAR-COLOR:#FFCC00
 X-WR-TIMEZONE:Asia/Bahrain
 BEGIN:VTIMEZONE
@@ -27,50 +27,6 @@ DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 1\, Match 1\nا
 CATEGORIES:Bahrain Basketball
 END:VEVENT
 BEGIN:VEVENT
-UID:zain-bball-2627-m2@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261005T180000
-DURATION:PT2H
-SUMMARY:🏀 Al-Hala vs Isa Town
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 1\, Match 2\nا
- لحالة × مدينة عيسى\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m3@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261005T200000
-DURATION:PT2H
-SUMMARY:🏀 Sitra vs Al-Manama
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 1\, Match 3\nس
- ترة × المنامة\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m4@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261006T180000
-DURATION:PT2H
-SUMMARY:🏀 Samaheej vs Al-Muharraq
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 1\, Match 4\nس
- ماهيج × المحرق\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m5@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261006T200000
-DURATION:PT2H
-SUMMARY:🏀 Al-Ittihad vs Al-Ahli
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 1\, Match 5\nا
- لاتحاد × الأهلي\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
 UID:zain-bball-2627-m6@bba.bh
 DTSTAMP:20261005T000000Z
 DTSTART;TZID=Asia/Bahrain:20261012T200000
@@ -79,83 +35,6 @@ SUMMARY:🏀 Al-Najma vs Al-Ittihad
 LOCATION:Um Al Hassam Hall\, Bahrain
 DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 2\, Match 6\nا
  لنجمة × الاتحاد\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m7@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261013T180000
-DURATION:PT2H
-SUMMARY:🏀 Isa Town vs Al-Manama
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 2\, Match 7\nم
- دينة عيسى × المنامة\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m8@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261013T200000
-DURATION:PT2H
-SUMMARY:🏀 Al-Ahli vs Al-Nuwaidrat
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 2\, Match 8\nا
- لأهلي × النويدرات\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m9@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261014T180000
-DURATION:PT2H
-SUMMARY:🏀 Samaheej vs Al-Hala
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 2\, Match 9\nس
- ماهيج × الحالة\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m10@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261014T200000
-DURATION:PT2H
-SUMMARY:🏀 Al-Muharraq vs Sitra
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 2\, Match 10\nا
- لمحرق × سترة\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m11@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261019T180000
-DURATION:PT2H
-SUMMARY:🏀 Al-Muharraq vs Isa Town
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 3\, Match 11\nا
- لمحرق × مدينة عيسى\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m12@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261019T200000
-DURATION:PT2H
-SUMMARY:🏀 Al-Manama vs Samaheej
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 3\, Match 12\nا
- لمنامة × سماهيج\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m13@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261020T180000
-DURATION:PT2H
-SUMMARY:🏀 Al-Hala vs Sitra
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 3\, Match 13\nا
- لحالة × سترة\nصالة أم الحصم
 CATEGORIES:Bahrain Basketball
 END:VEVENT
 BEGIN:VEVENT
@@ -170,39 +49,6 @@ DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 3\, Match 14\nا
 CATEGORIES:Bahrain Basketball
 END:VEVENT
 BEGIN:VEVENT
-UID:zain-bball-2627-m15@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261021T200000
-DURATION:PT2H
-SUMMARY:🏀 Al-Nuwaidrat vs Al-Ittihad
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 3\, Match 15\nا
- لنويدرات × الاتحاد\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m16@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261027T200000
-DURATION:PT2H
-SUMMARY:🏀 Sitra vs Al-Nuwaidrat
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 4\, Match 16\nس
- ترة × النويدرات\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m17@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261028T180000
-DURATION:PT2H
-SUMMARY:🏀 Isa Town vs Samaheej
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 4\, Match 17\nم
- دينة عيسى × سماهيج\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
 UID:zain-bball-2627-m18@bba.bh
 DTSTAMP:20261005T000000Z
 DTSTART;TZID=Asia/Bahrain:20261028T200000
@@ -211,72 +57,6 @@ SUMMARY:🏀 Al-Hala vs Al-Najma
 LOCATION:Um Al Hassam Hall\, Bahrain
 DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 4\, Match 18\nا
  لحالة × النجمة\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m19@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261029T180000
-DURATION:PT2H
-SUMMARY:🏀 Al-Ittihad vs Al-Muharraq
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 4\, Match 19\nا
- لاتحاد × المحرق\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m20@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261029T200000
-DURATION:PT2H
-SUMMARY:🏀 Al-Ahli vs Al-Manama
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 4\, Match 20\nا
- لأهلي × المنامة\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m21@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261104T180000
-DURATION:PT2H
-SUMMARY:🏀 Samaheej vs Sitra
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 5\, Match 21\nس
- ماهيج × سترة\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m22@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261104T200000
-DURATION:PT2H
-SUMMARY:🏀 Al-Ahli vs Al-Hala
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 5\, Match 22\nا
- لأهلي × الحالة\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m23@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261105T180000
-DURATION:PT2H
-SUMMARY:🏀 Al-Nuwaidrat vs Isa Town
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 5\, Match 23\nا
- لنويدرات × مدينة عيسى\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m24@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261105T200000
-DURATION:PT2H
-SUMMARY:🏀 Al-Manama vs Al-Ittihad
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 5\, Match 24\nا
- لمنامة × الاتحاد\nصالة أم الحصم
 CATEGORIES:Bahrain Basketball
 END:VEVENT
 BEGIN:VEVENT
@@ -291,39 +71,6 @@ DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 5\, Match 25\nا
 CATEGORIES:Bahrain Basketball
 END:VEVENT
 BEGIN:VEVENT
-UID:zain-bball-2627-m26@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261110T180000
-DURATION:PT2H
-SUMMARY:🏀 Isa Town vs Al-Ahli
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 6\, Match 26\nم
- دينة عيسى × الأهلي\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m27@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261110T200000
-DURATION:PT2H
-SUMMARY:🏀 Al-Hala vs Al-Manama
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 6\, Match 27\nا
- لحالة × المنامة\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m28@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261111T180000
-DURATION:PT2H
-SUMMARY:🏀 Al-Ittihad vs Samaheej
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 6\, Match 28\nا
- لاتحاد × سماهيج\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
 UID:zain-bball-2627-m29@bba.bh
 DTSTAMP:20261005T000000Z
 DTSTART;TZID=Asia/Bahrain:20261111T200000
@@ -332,17 +79,6 @@ SUMMARY:🏀 Sitra vs Al-Najma
 LOCATION:Um Al Hassam Hall\, Bahrain
 DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 6\, Match 29\nس
  ترة × النجمة\nصالة أم الحصم
-CATEGORIES:Bahrain Basketball
-END:VEVENT
-BEGIN:VEVENT
-UID:zain-bball-2627-m30@bba.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261112T180000
-DURATION:PT2H
-SUMMARY:🏀 Al-Muharraq vs Al-Nuwaidrat
-LOCATION:Um Al Hassam Hall\, Bahrain
-DESCRIPTION:Zain Men's Basketball League 2026/27 – Round 6\, Match 30\nا
- لمحرق × النويدرات\nصالة أم الحصم
 CATEGORIES:Bahrain Basketball
 END:VEVENT
 END:VCALENDAR

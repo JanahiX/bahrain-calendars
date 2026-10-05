@@ -1,60 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bahrain league calendars</title>
+<title>Al Najma match calendars</title>
 <style>
   :root { --bg:#f6f7f9; --ink:#14181f; --muted:#5b6472; --card:#ffffff; --line:#dfe3e8; }
   @media (prefers-color-scheme: dark) {
     :root { --bg:#14171c; --ink:#f1f3f6; --muted:#9aa3b0; --card:#1d2128; --line:#2c323b; }
   }
   * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
-  main { max-width:480px; margin:0 auto; padding:32px 20px 48px; }
-  h1 { font-size:1.6rem; line-height:1.2; margin:0 0 8px; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Geeza Pro","Noto Naskh Arabic",Tahoma,sans-serif; }
+  main { max-width:480px; margin:0 auto; padding:20px 20px 48px; }
+  .topbar { display:flex; justify-content:flex-end; margin-bottom:12px; }
+  .lang { font:inherit; font-size:.9rem; font-weight:600; color:var(--ink); background:var(--card); border:1px solid var(--line); border-radius:999px; padding:6px 14px; cursor:pointer; }
+  .lang:focus-visible, .btn:focus-visible { outline:3px solid var(--ink); outline-offset:2px; }
+  .brand { display:flex; align-items:center; gap:14px; margin:0 0 10px; }
+  .logo { width:72px; height:72px; border-radius:50%; object-fit:cover; background:var(--card); border:1px solid var(--line); flex:none; }
+  h1 { font-size:1.6rem; line-height:1.3; margin:0; }
   p.lead { color:var(--muted); margin:0 0 28px; }
-  .item { background:var(--card); border:1px solid var(--line); border-left-width:6px; border-radius:12px; padding:16px; margin-bottom:14px; }
+  .item { background:var(--card); border:1px solid var(--line); border-inline-start-width:6px; border-radius:12px; padding:16px; margin-bottom:14px; }
   .item h2 { font-size:1.1rem; margin:0 0 2px; }
   .item p { margin:0 0 12px; color:var(--muted); font-size:.92rem; }
   .btn { display:block; text-align:center; padding:12px; border-radius:10px; font-weight:600; text-decoration:none; color:#fff; }
-  .btn:focus-visible { outline:3px solid var(--ink); outline-offset:2px; }
   .alt { display:block; text-align:center; margin-top:10px; font-size:.88rem; color:var(--muted); }
-  .football { border-left-color:#ff3b30; } .football .btn { background:#d92d22; }
-  .basketball { border-left-color:#ffcc00; } .basketball .btn { background:#8a6a00; }
-  .handball { border-left-color:#1b2a6b; } .handball .btn { background:#1b2a6b; }
+  .football { border-inline-start-color:#ff3b30; } .football .btn { background:#d92d22; }
+  .basketball { border-inline-start-color:#ffcc00; } .basketball .btn { background:#8a6a00; }
+  .handball { border-inline-start-color:#1b2a6b; } .handball .btn { background:#1b2a6b; }
   .note { color:var(--muted); font-size:.85rem; margin-top:24px; }
 </style>
 </head>
 <body>
 <main>
-  <h1>Bahrain league calendars</h1>
-  <p class="lead">Tap a button, then tap Subscribe. Each sport gets its own calendar on your iPhone.</p>
+  <div class="topbar">
+    <button class="lang" id="langBtn" type="button">العربية</button>
+  </div>
+
+  <div class="brand">
+    <img class="logo" src="najma-logo.jpeg" alt="" width="72" height="72"
+         onerror="if(!this.dataset.tried){this.dataset.tried=1;this.src='https://alwatannews.net/watanbahrainnews/uploads/images/2025/07/22/3367065.jpeg';}else{this.style.display='none';}">
+    <h1 data-i18n="title">Al Najma match calendars</h1>
+  </div>
+  <p class="lead" data-i18n="lead">Tap a button, then tap Subscribe. Each sport gets its own calendar on your iPhone.</p>
 
   <section class="item football">
-    <h2>Football</h2>
-    <p>Premier League, Rounds 4 to 6. 18 matches.</p>
-    <a class="btn" data-file="Bahrain_League_Rounds.ics" href="Bahrain_League_Rounds.ics">Add football calendar</a>
-    <a class="alt" data-file="Bahrain_League_Rounds.ics" data-plain href="Bahrain_League_Rounds.ics">Add once, without updates</a>
+    <h2 data-i18n="footballTitle">Football</h2>
+    <p data-i18n="footballDesc">Al Najma, Rounds 4 to 6. 3 matches.</p>
+    <a class="btn" data-file="Bahrain_League_Rounds.ics" data-i18n="footballBtn" href="Bahrain_League_Rounds.ics">Add football calendar</a>
+    <a class="alt" data-file="Bahrain_League_Rounds.ics" data-i18n="once" href="Bahrain_League_Rounds.ics">Add once, without updates</a>
   </section>
 
   <section class="item basketball">
-    <h2>Basketball</h2>
-    <p>Zain Men's League. 30 matches.</p>
-    <a class="btn" data-file="Bahrain_Basketball_League.ics" href="Bahrain_Basketball_League.ics">Add basketball calendar</a>
-    <a class="alt" data-file="Bahrain_Basketball_League.ics" data-plain href="Bahrain_Basketball_League.ics">Add once, without updates</a>
+    <h2 data-i18n="basketballTitle">Basketball</h2>
+    <p data-i18n="basketballDesc">Al Najma, Zain Men's League. 6 matches.</p>
+    <a class="btn" data-file="Bahrain_Basketball_League.ics" data-i18n="basketballBtn" href="Bahrain_Basketball_League.ics">Add basketball calendar</a>
+    <a class="alt" data-file="Bahrain_Basketball_League.ics" data-i18n="once" href="Bahrain_Basketball_League.ics">Add once, without updates</a>
   </section>
 
   <section class="item handball">
-    <h2>Handball</h2>
-    <p>Khalid Bin Hamad League. 45 matches.</p>
-    <a class="btn" data-file="Bahrain_Handball_League.ics" href="Bahrain_Handball_League.ics">Add handball calendar</a>
-    <a class="alt" data-file="Bahrain_Handball_League.ics" data-plain href="Bahrain_Handball_League.ics">Add once, without updates</a>
+    <h2 data-i18n="handballTitle">Handball</h2>
+    <p data-i18n="handballDesc">Al Najma, Khalid Bin Hamad League. 9 matches.</p>
+    <a class="btn" data-file="Bahrain_Handball_League.ics" data-i18n="handballBtn" href="Bahrain_Handball_League.ics">Add handball calendar</a>
+    <a class="alt" data-file="Bahrain_Handball_League.ics" data-i18n="once" href="Bahrain_Handball_League.ics">Add once, without updates</a>
   </section>
 
-  <p class="note">Open this page in Safari on iPhone. "Add once" imports the matches as normal events. The main buttons subscribe, so the calendar can be removed in one step.</p>
+  <p class="note" data-i18n="note">Open this page in Safari on iPhone. "Add once" imports the matches as normal events. The main buttons subscribe, so the calendar can be removed in one step.</p>
 </main>
+
 <script>
+  var T = {
+    en: {
+      title: "Al Najma match calendars",
+      lead: "Tap a button, then tap Subscribe. Each sport gets its own calendar on your iPhone.",
+      footballTitle: "Football",
+      footballDesc: "Al Najma, Rounds 4 to 6. 3 matches.",
+      footballBtn: "Add football calendar",
+      basketballTitle: "Basketball",
+      basketballDesc: "Al Najma, Zain Men's League. 6 matches.",
+      basketballBtn: "Add basketball calendar",
+      handballTitle: "Handball",
+      handballDesc: "Al Najma, Khalid Bin Hamad League. 9 matches.",
+      handballBtn: "Add handball calendar",
+      once: "Add once, without updates",
+      note: "Open this page in Safari on iPhone. \"Add once\" imports the matches as normal events. The main buttons subscribe, so the calendar can be removed in one step.",
+      toggle: "العربية",
+      pageTitle: "Al Najma match calendars",
+      logoAlt: "Al Najma club logo"
+    },
+    ar: {
+      title: "مواعيد مباريات النجمة",
+      lead: "اضغط على الزر ثم اضغط «اشتراك». ستظهر كل رياضة كتقويم منفصل على جوالك.",
+      footballTitle: "كرة القدم",
+      footballDesc: "النجمة، الجولات 4 إلى 6. 3 مباريات.",
+      footballBtn: "إضافة تقويم كرة القدم",
+      basketballTitle: "كرة السلة",
+      basketballDesc: "النجمة، دوري زين للرجال. 6 مباريات.",
+      basketballBtn: "إضافة تقويم كرة السلة",
+      handballTitle: "كرة اليد",
+      handballDesc: "النجمة، دوري خالد بن حمد. 9 مباريات.",
+      handballBtn: "إضافة تقويم كرة اليد",
+      once: "إضافة لمرة واحدة بدون تحديثات",
+      note: "افتح هذه الصفحة في متصفح سفاري على الآيفون. خيار «إضافة لمرة واحدة» يضيف المباريات كأحداث عادية. أما الأزرار الرئيسية فتشترك في التقويم، ويمكن حذفه بخطوة واحدة.",
+      toggle: "English",
+      pageTitle: "مواعيد مباريات النجمة",
+      logoAlt: "شعار نادي النجمة"
+    }
+  };
+
+  function setLang(lang) {
+    var d = T[lang];
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.title = d.pageTitle;
+    document.querySelectorAll('[data-i18n]').forEach(function (el) {
+      el.textContent = d[el.getAttribute('data-i18n')];
+    });
+    document.querySelector('.logo').alt = d.logoAlt;
+    document.getElementById('langBtn').textContent = d.toggle;
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+  }
+
+  var saved = null;
+  try { saved = localStorage.getItem('lang'); } catch (e) {}
+  var lang = saved || ((navigator.language || '').toLowerCase().indexOf('ar') === 0 ? 'ar' : 'en');
+  setLang(lang);
+
+  document.getElementById('langBtn').addEventListener('click', function () {
+    setLang(document.documentElement.lang === 'ar' ? 'en' : 'ar');
+  });
+
   var base = location.host + location.pathname.replace(/[^\/]*$/, '');
   document.querySelectorAll('a.btn[data-file]').forEach(function (a) {
     a.href = 'webcal://' + base + a.getAttribute('data-file');

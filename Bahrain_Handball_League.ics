@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Bahrain Handball//Khalid Bin Hamad League//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Bahrain Handball
+X-WR-CALNAME:Bahrain Handball - Al Najma
 X-APPLE-CALENDAR-COLOR:#1B2A6B
 X-WR-TIMEZONE:Asia/Bahrain
 BEGIN:VTIMEZONE
@@ -16,39 +16,6 @@ TZNAME:+03
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:kbh-handball-2627-m1@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261008T173000
-DURATION:PT1H30M
-SUMMARY:🤾 Barbar vs Al-Ettifaq
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 1\, Match 1\
- nباربار × الاتفاق\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m2@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261008T191500
-DURATION:PT1H30M
-SUMMARY:🤾 Samaheej vs Al-Tadamun
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 1\, Match 2\
- nسماهيج × التضامن\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m3@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261008T210000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ahli vs Tubli
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 1\, Match 3\
- nالاهلي × توبلي\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
 UID:kbh-handball-2627-m4@bhf.bh
 DTSTAMP:20261005T000000Z
 DTSTART;TZID=Asia/Bahrain:20261009T170000
@@ -57,17 +24,6 @@ SUMMARY:🤾 Al-Ittihad vs Al-Najma
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
 DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 1\, Match 4\
  nالاتحاد × النجمة\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m5@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261009T184500
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Dair vs Al-Shabab
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 1\, Match 5\
- nالدير × الشباب\nصالة اتحاد اليد
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
@@ -82,83 +38,6 @@ DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 2\, Match 6\
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
-UID:kbh-handball-2627-m7@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261011T184500
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ahli vs Samaheej
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 2\, Match 7\
- nالاهلي × سماهيج\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m8@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261012T170000
-DURATION:PT1H30M
-SUMMARY:🤾 Barbar vs Al-Dair
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 2\, Match 8\
- nباربار × الدير\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m9@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261012T184500
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Shabab vs Al-Ettifaq
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 2\, Match 9\
- nالشباب × الاتفاق\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m10@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261013T190000
-DURATION:PT1H30M
-SUMMARY:🤾 Tubli vs Al-Ittihad
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 2\, Match 10
- \nتوبلي × الاتحاد\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m11@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261014T191500
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ahli vs Al-Tadamun
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 3\, Match 11
- \nالاهلي × التضامن\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m12@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261015T173000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Shabab vs Tubli
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 3\, Match 12
- \nالشباب × توبلي\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m13@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261015T191500
-DURATION:PT1H30M
-SUMMARY:🤾 Barbar vs Al-Ittihad
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 3\, Match 13
- \nباربار × الاتحاد\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
 UID:kbh-handball-2627-m14@bhf.bh
 DTSTAMP:20261005T000000Z
 DTSTART;TZID=Asia/Bahrain:20261015T210000
@@ -167,28 +46,6 @@ SUMMARY:🤾 Al-Dair vs Al-Najma
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
 DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 3\, Match 14
  \nالدير × النجمة\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m15@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261016T190000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ettifaq vs Samaheej
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 3\, Match 15
- \nالاتفاق × سماهيج\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m16@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261018T170000
-DURATION:PT1H30M
-SUMMARY:🤾 Barbar vs Al-Tadamun
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 4\, Match 16
- \nباربار × التضامن\nصالة اتحاد اليد
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
@@ -203,83 +60,6 @@ DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 4\, Match 17
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
-UID:kbh-handball-2627-m18@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261019T170000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Dair vs Samaheej
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 4\, Match 18
- \nالدير × سماهيج\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m19@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261019T184500
-DURATION:PT1H30M
-SUMMARY:🤾 Tubli vs Al-Ettifaq
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 4\, Match 19
- \nتوبلي × الاتفاق\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m20@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261020T190000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ahli vs Al-Ittihad
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 4\, Match 20
- \nالاهلي × الاتحاد\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m21@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261021T190000
-DURATION:PT1H30M
-SUMMARY:🤾 Barbar vs Al-Shabab
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 5\, Match 21
- \nباربار × الشباب\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m22@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261022T170000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Dair vs Al-Ettifaq
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 5\, Match 22
- \nالدير × الاتفاق\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m23@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261022T184500
-DURATION:PT1H30M
-SUMMARY:🤾 Tubli vs Al-Tadamun
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 5\, Match 23
- \nتوبلي × التضامن\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m24@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261023T170000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ittihad vs Samaheej
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 5\, Match 24
- \nالاتحاد × سماهيج\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
 UID:kbh-handball-2627-m25@bhf.bh
 DTSTAMP:20261005T000000Z
 DTSTART;TZID=Asia/Bahrain:20261023T184500
@@ -288,39 +68,6 @@ SUMMARY:🤾 Al-Ahli vs Al-Najma
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
 DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 5\, Match 25
  \nالاهلي × النجمة\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m26@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261025T170000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Tadamun vs Al-Dair
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 6\, Match 26
- \nالتضامن × الدير\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m27@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261025T184500
-DURATION:PT1H30M
-SUMMARY:🤾 Barbar vs Tubli
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 6\, Match 27
- \nباربار × توبلي\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m28@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261026T170000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ettifaq vs Al-Ittihad
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 6\, Match 28
- \nالاتفاق × الاتحاد\nصالة اتحاد اليد
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
@@ -335,17 +82,6 @@ DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 6\, Match 29
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
-UID:kbh-handball-2627-m30@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261027T190000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ahli vs Al-Shabab
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 6\, Match 30
- \nالاهلي × الشباب\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
 UID:kbh-handball-2627-m31@bhf.bh
 DTSTAMP:20261005T000000Z
 DTSTART;TZID=Asia/Bahrain:20261029T173000
@@ -354,94 +90,6 @@ SUMMARY:🤾 Al-Najma vs Tubli
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
 DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 7\, Match 31
  \nالنجمة × توبلي\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m32@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261029T191500
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Dair vs Al-Ittihad
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 7\, Match 32
- \nالدير × الاتحاد\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m33@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261029T210000
-DURATION:PT1H30M
-SUMMARY:🤾 Barbar vs Samaheej
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 7\, Match 33
- \nباربار × سماهيج\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m34@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261030T170000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Shabab vs Al-Tadamun
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 7\, Match 34
- \nالشباب × التضامن\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m35@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261030T184500
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ahli vs Al-Ettifaq
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 7\, Match 35
- \nالاهلي × الاتفاق\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m36@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261110T173000
-DURATION:PT1H30M
-SUMMARY:🤾 Tubli vs Samaheej
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 8\, Match 36
- \nتوبلي × سماهيج\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m37@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261110T191500
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Shabab vs Al-Ittihad
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 8\, Match 37
- \nالشباب × الاتحاد\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m38@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261110T210000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Tadamun vs Al-Ettifaq
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 8\, Match 38
- \nالتضامن × الاتفاق\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m39@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261111T173000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ahli vs Al-Dair
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 8\, Match 39
- \nالاهلي × الدير\nصالة اتحاد اليد
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
@@ -456,28 +104,6 @@ DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 8\, Match 40
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
-UID:kbh-handball-2627-m41@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261113T170000
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Shabab vs Samaheej
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 9\, Match 41
- \nالشباب × سماهيج\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m42@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261113T184500
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Ittihad vs Al-Tadamun
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 9\, Match 42
- \nالاتحاد × التضامن\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
 UID:kbh-handball-2627-m43@bhf.bh
 DTSTAMP:20261005T000000Z
 DTSTART;TZID=Asia/Bahrain:20261114T173000
@@ -486,28 +112,6 @@ SUMMARY:🤾 Al-Najma vs Al-Ettifaq
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
 DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 9\, Match 43
  \nالنجمة × الاتفاق\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m44@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261114T191500
-DURATION:PT1H30M
-SUMMARY:🤾 Al-Dair vs Tubli
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 9\, Match 44
- \nالدير × توبلي\nصالة اتحاد اليد
-CATEGORIES:Bahrain Handball
-END:VEVENT
-BEGIN:VEVENT
-UID:kbh-handball-2627-m45@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261114T210000
-DURATION:PT1H30M
-SUMMARY:🤾 Barbar vs Al-Ahli
-LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 9\, Match 45
- \nباربار × الاهلي\nصالة اتحاد اليد
 CATEGORIES:Bahrain Handball
 END:VEVENT
 END:VCALENDAR

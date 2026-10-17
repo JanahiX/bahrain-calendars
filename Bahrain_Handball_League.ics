@@ -50,8 +50,9 @@ CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
 UID:kbh-handball-2627-m17@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261018T184500
+DTSTAMP:20261017T000000Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Bahrain:20261018T191500
 DURATION:PT1H30M
 SUMMARY:🤾 Al-Shabab vs Al-Najma
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
@@ -61,57 +62,74 @@ CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
 UID:kbh-handball-2627-m25@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261023T184500
+DTSTAMP:20261017T000000Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Bahrain:20261023T203000
 DURATION:PT1H30M
 SUMMARY:🤾 Al-Ahli vs Al-Najma
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 5\, Match 25
+DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 5\, Match 26
  \nالاهلي × النجمة\nصالة اتحاد اليد
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
+UID:kbh-handball-2627-m27@bhf.bh
+DTSTAMP:20261017T000000Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Bahrain:20261025T183000
+DURATION:PT1H30M
+SUMMARY:🤾 Bahrain Club vs Al-Najma
+LOCATION:Bahrain Handball Federation Hall\, Bahrain
+DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 5\, Match 27
+ \nالبحرين × النجمة\nصالة اتحاد اليد
+CATEGORIES:Bahrain Handball
+END:VEVENT
+BEGIN:VEVENT
 UID:kbh-handball-2627-m29@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261026T184500
+DTSTAMP:20261017T000000Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Bahrain:20261028T183000
 DURATION:PT1H30M
 SUMMARY:🤾 Samaheej vs Al-Najma
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 6\, Match 29
+DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 6\, Match 32
  \nسماهيج × النجمة\nصالة اتحاد اليد
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
 UID:kbh-handball-2627-m31@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261029T173000
+DTSTAMP:20261017T000000Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Bahrain:20261031T184500
 DURATION:PT1H30M
-SUMMARY:🤾 Al-Najma vs Tubli
+SUMMARY:🤾 Tubli vs Al-Najma
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 7\, Match 31
- \nالنجمة × توبلي\nصالة اتحاد اليد
+DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 7\, Match 36
+ \nتوبلي × النجمة\nصالة اتحاد اليد
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
 UID:kbh-handball-2627-m40@bhf.bh
-DTSTAMP:20261005T000000Z
+DTSTAMP:20261017T000000Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Bahrain:20261111T191500
 DURATION:PT1H30M
 SUMMARY:🤾 Barbar vs Al-Najma
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 8\, Match 40
+DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 8\, Match 44
  \nباربار × النجمة\nصالة اتحاد اليد
 CATEGORIES:Bahrain Handball
 END:VEVENT
 BEGIN:VEVENT
 UID:kbh-handball-2627-m43@bhf.bh
-DTSTAMP:20261005T000000Z
-DTSTART;TZID=Asia/Bahrain:20261114T173000
+DTSTAMP:20261017T000000Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Bahrain:20261114T184500
 DURATION:PT1H30M
-SUMMARY:🤾 Al-Najma vs Al-Ettifaq
+SUMMARY:🤾 Al-Ettifaq vs Al-Najma
 LOCATION:Bahrain Handball Federation Hall\, Bahrain
-DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 9\, Match 43
- \nالنجمة × الاتفاق\nصالة اتحاد اليد
+DESCRIPTION:Khalid Bin Hamad Handball League 2026/27 – Round 9\, Match 48
+ \nالاتفاق × النجمة\nصالة اتحاد اليد
 CATEGORIES:Bahrain Handball
 END:VEVENT
 END:VCALENDAR
